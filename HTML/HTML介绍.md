@@ -21,3 +21,27 @@ HTML (HyperText Markup Language) 不是一种编程语言;它是一种标记语�
 ### 1.2 剖析HTML元素
 
 [HTML元素](HTML_ELEMENT.png)
+
+### 1.3 实践
+
+[Em-Test.html](Em-Test.html)
+[Em-Test.css](styles/Em-Test.css)
+[Em-Test.js](js/Em-Test.js)
+
+### 块级元素和内联元素
+
+块级元素在页面中以块的形式展现 —— 相对与其前面的内容它会出现在新的一行，其后的内容也会被挤到下一行展现。
+内联元素通常出现在块级元素中并包裹文档内容的一小部分，而不是一整个段落或者一组内容。内联元素不会导致文本换行：它通常出现在一堆文字之间例如超链接元素<a>或者强调元素<em>和 <strong>。
+
+### 空元素
+
+不是所有元素都拥有开始标签，内容和结束标记. 一些元素只有一个标签，通常用来在此元素所在位置插入/嵌入一些东西 。例如：元素<img>。
+
+### 为元素添加属性
+
+<a href="https://www.mozilla.org/" title="The Mozilla homepage">favorite website</a>
+
+### 布尔属性
+
+他们只能有跟它的属性名一样的属性值。
+<input type="text" disabled> 
