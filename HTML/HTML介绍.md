@@ -20,7 +20,7 @@ HTML (HyperText Markup Language) 不是一种编程语言;它是一种标记语�
 
 ### 1.2 剖析HTML元素
 
-[HTML元素](HTML_ELEMENT.png)
+[HTML元素](TEST_PROJ/images/HTML_ELEMENT.png)
 
 ### 1.3 实践
 

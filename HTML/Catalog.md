@@ -4,7 +4,7 @@
 
 HTML语法
 [HTML介绍](HTML介绍.md)
-[HTML的HEAD](Head.md)
+[HTML的HEAD](HTMLHead.md)
 [HTML文字基础](HTML文字基础.md)
 [HTML超链接](HTML超链接.md)
 [HTML高级文字格式](HTML高级文字格式.md)
