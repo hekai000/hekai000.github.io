@@ -45,3 +45,33 @@ HTML (HyperText Markup Language) 不是一种编程语言;它是一种标记语�
 
 他们只能有跟它的属性名一样的属性值。
 <input type="text" disabled> 
+
+### 为HTML添加特征
+
+TIPS:
+```
+如果你的页面html文件是放在本地的，比如用浏览器打开桌面上的html文件，是可以访问本地图片文件的。
+如果你的html是在web服务器上的，即浏览器的地址是http://xxx.xxx/xx.html而不是file:///C:/xxx.html，那么是不允许打开file://开头的本地图片的，这是出于安全考虑的。这种情况下你可以按F12看看浏览器的错误信息是不是“not allowed to load local resource”。
+```
+[实验代码](TEST_PROJ/Em-Test.html)
+
+### HTML中的空白
+
+无论你用了多少空白(包括空白字符，包括换行), 当渲染这些代码的时候，HTML解释器会将连续出现的空白字符减少为一个单独的空格符。
+
+
+### 特殊字符
+
+|原意字符|等价字符引用|
+|:-----:|:-----:|
+| < | \&lt; |
+| > | \&gt; |
+| " | \&quot;|
+| ' | \&apos;|
+| & | \&amp;|
+
+### HTML注释
+
+```
+<!-- -->
+```
