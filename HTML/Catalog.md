@@ -9,6 +9,8 @@ HTML语法
 [HTML超链接](HTML超链接.md)
 [HTML高级文字格式](HTML高级文字格式.md)
 [HTML文档与网站架构](HTML文档与网站架构.md)
+[HTML调试](HTML调试.md)
+[HTML信件](HTML信件.md)
 ## 多媒体和嵌入
 
 网页嵌入音视频的方法
