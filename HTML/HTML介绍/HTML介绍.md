@@ -20,13 +20,11 @@ HTML (HyperText Markup Language) 不是一种编程语言;它是一种标记语�
 
 ### 1.2 剖析HTML元素
 
-[HTML元素](TEST_PROJ/images/HTML_ELEMENT.png)
+[HTML元素](../TEST_PROJ/images/HTML_ELEMENT.png)
 
 ### 1.3 实践
 
-[Em-Test.html](Em-Test.html)
-[Em-Test.css](styles/Em-Test.css)
-[Em-Test.js](js/Em-Test.js)
+[Em-Test.html](../TEST_PROJ/Em-Test.html)
 
 ### 块级元素和内联元素
 
@@ -53,7 +51,7 @@ TIPS:
 如果你的页面html文件是放在本地的，比如用浏览器打开桌面上的html文件，是可以访问本地图片文件的。
 如果你的html是在web服务器上的，即浏览器的地址是http://xxx.xxx/xx.html而不是file:///C:/xxx.html，那么是不允许打开file://开头的本地图片的，这是出于安全考虑的。这种情况下你可以按F12看看浏览器的错误信息是不是“not allowed to load local resource”。
 ```
-[实验代码](TEST_PROJ/Em-Test.html)
+[实验代码](../TEST_PROJ/Em-Test.html)
 
 ### HTML中的空白
 
