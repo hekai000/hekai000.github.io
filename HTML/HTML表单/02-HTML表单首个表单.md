@@ -70,5 +70,27 @@ HTML表单是用户和web站点或应用程序之间交互的主要内容之一�
 
 ```
 
+每当您有一组单选按钮时，您应该将它们嵌套在\<fieldset\>元素中。
+还有其他用例，一般来说，\<fieldset\>元素也可以用来对表单进行分段。
+理想情况下，长表单应该在多个页面之间进行拆分，但是如果表单很长，但必须在单个页面上，那么在不同的fieldsets中放置不同的相关部分可以提高可用性。
+
+### label
+
+```
+<form>
+  <p>
+    <label for="taste_1">I like cherry</label>
+    <input type="checkbox" id="taste_1" name="taste_cherry" value="1">
+  </p>
+  <p>
+    <label for="taste_2">I like banana</label>
+    <input type="checkbox" id="taste_2" name="taste_banana" value="2">
+  </p>
+</form>
+```
+
+label的for标签与input的id相关联
+
+
 
 
